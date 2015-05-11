@@ -1,0 +1,31 @@
+{
+  "name": "teo-powered-by-extension",
+  "version": "0.0.1",
+  "description": "X-Powered-By middleware extension for Teo.js framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antyfive/teo-powered-by-extension.git"
+  },
+  "keywords": [
+    "teo.js",
+    "teo",
+    "extension",
+    "middleware",
+    "rest",
+    "restful",
+    "modules"
+  ],
+  "author": {
+    "name": "Andrew Teologov",
+    "email": "teologov.and@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antyfive/teo-powered-by-extension/issues"
+  },
+  "homepage": "https://github.com/Antyfive/teo-powered-by-extension#readme"
+}
