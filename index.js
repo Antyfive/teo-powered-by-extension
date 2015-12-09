@@ -4,13 +4,15 @@
  * @date 5/11/15
  */
 
+"use strict";
+
 /* global version */
 
 module.exports = {
-    extension: function(app) {
-        app.middleware(function(req, res, next) {
-            res.setHeader("X-Powered-By", "Teo.js v" + version);
-            next();
+    extension(app) {
+        app.middleware(function* (next) {
+            this.res.setHeader("X-Powered-By", "Teo.JS v" + version);
+            yield next;
         });
     }
 };

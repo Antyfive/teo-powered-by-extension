@@ -1,6 +1,6 @@
 {
   "name": "teo-powered-by-extension",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "X-Powered-By middleware extension for Teo.js framework.",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/Antyfive/teo-powered-by-extension/issues"
   },
-  "homepage": "https://github.com/Antyfive/teo-powered-by-extension#readme"
+  "homepage": "https://github.com/Antyfive/teo-powered-by-extension#readme",
+  "engines": {
+    "node": ">= 4"
+  }
 }
